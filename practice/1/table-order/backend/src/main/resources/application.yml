@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: table-order-backend
+  datasource:
+    url: jdbc:sqlite:./data/tableorder.db
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    show-sql: false
+    open-in-view: false
+
+server:
+  port: 8080
+
+jwt:
+  secret: ${JWT_SECRET:dev-secret-key-for-table-order-service-minimum-256-bits-long}
+  expiration: 57600
+
+logging:
+  level:
+    com.tableorder: DEBUG
+    org.springframework.web: INFO
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha

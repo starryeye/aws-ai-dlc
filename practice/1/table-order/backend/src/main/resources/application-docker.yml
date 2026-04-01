@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:/app/data/tableorder.db
+
+jwt:
+  secret: ${JWT_SECRET}
