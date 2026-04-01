@@ -1,4 +1,4 @@
-# AWS AI-DLC (AI-Driven Development Life Cycle) 학습 저장소
+# AWS AI-DLC (AI-Driven Development Life Cycle)
 
 AI-DLC는 AI 코딩 에이전트와 함께 체계적으로 소프트웨어를 개발하는 워크플로우 방법론이다.  
 이 저장소는 AI-DLC를 학습하고 실습한 내용을 정리한 곳이다.
@@ -153,10 +153,3 @@ Using AI-DLC, <만들고 싶은 서비스 설명>
 각 단계마다 사용자 검토와 승인이 필요하다. AI가 제안하고, 사람이 결정하는 구조.
 
 ---
-
-## 참고 자료
-
-- [AI-DLC 방법론 블로그](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/)
-- [AI-DLC 오픈소스 블로그](https://aws.amazon.com/blogs/devops/open-sourcing-adaptive-workflows-for-ai-driven-development-life-cycle-ai-dlc/)
-- [AI-DLC 예제 워크스루 블로그](https://aws.amazon.com/blogs/devops/building-with-ai-dlc-using-amazon-q-developer/)
-- [base/aidlc-workflows/docs/WORKING-WITH-AIDLC.md](base/aidlc-workflows/docs/WORKING-WITH-AIDLC.md) — AI-DLC 상호작용 패턴 및 팁
